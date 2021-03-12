@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link href='/stylesheets/style.css' rel='stylesheet' >
+  </head>
+  <body>
+      <span><a href='/new'>to new message page</a></span>
+    <h1><%= title %></h1>
+
+    <% if(messages.length > 0) {
+        messages.forEach(message => {
+            %>
+            <div class='output-container'>
+              <p class='message-body'><%= message.text %></p>
+              <h4 class='message-body' id="name"><%= message.user %></h4>
+              <p class='message-body' id='date'><%= message.add %></p>
+              <span id="underline">_________________________________________________</span>
+            </div>
+            
+            
+        <%
+        })
+        
+    }
+    %>
+
+  </body>
+
+</html>

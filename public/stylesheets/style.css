@@ -1,0 +1,84 @@
+
+h1 {
+    margin-left: 10px;
+}
+
+
+html {
+    background-color: orange;
+}
+
+.output-container {
+    margin-bottom: 20px;
+}
+.message-body {
+    margin: 0 0 10px 10px;
+}
+    #name {
+        color: blue;
+        margin-left: 25px;
+    }
+    #date {
+        margin-top: -8px;
+        margin-left: 25px;
+        font-size: 0.8em;
+    }
+    #underline {
+        position: relative;
+        top: -15px;
+    }
+
+/* .message-container {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    width: 400px;
+    height: 400px;
+
+} */
+button {
+    background-color: red;
+}
+
+/* new message container */
+.newTask-container {
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    /* transform: translate(-50%, 0); */
+    height: 300px;
+    width: 500px;
+    border: 1px solid black;
+    background-color: rgba(127, 230, 238, 0.747);
+    z-index: 5;
+    opacity: 1;
+}
+    .newTask-field {
+        margin: 20px 0 0 10px;
+    }
+    .newTask-input {
+        position: absolute;
+        left: 120px;
+        width: 65%;
+    }
+        #extra-details {
+            height: 100px;
+        }
+    .button-container {
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+        margin-top: 110px;
+    }
+        .sub-button {
+            height: 35px;
+            width: 75px;
+            border: 1px solid black;
+        }
+            .confirm {
+                background-color: rgba(10, 173, 10, 0.712);
+            }
+            .exit {
+                background-color: rgba(206, 12, 12, 0.911)
+            }
+
